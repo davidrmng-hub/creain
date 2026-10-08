@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CreaIN — Agencia Creativa · Humanos + IA</title>
+  <meta name="description" content="CreaIN es una agencia creativa que usa inteligencia artificial con base siempre humana. Estrategia 360, personajes y comerciales en IA, producción real, branding y lanzamientos.">
+  <meta property="og:title" content="CreaIN — Creatividad humana, potenciada por IA">
+  <meta property="og:description" content="Agencia creativa: estrategia, IA creativa, producción, branding y consultoría.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@500;700;800&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/favicon.png">
+  <meta property="og:image" content="https://creain.netlify.app/assets/og.jpg">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo" aria-label="CreaIN"><img src="assets/logo-creain.webp" alt="CreaIN Creative Agency" width="150" height="47"></a>
+    <nav class="nav-links">
+      <a href="#servicios" data-i18n="nav.services">Servicios</a>
+      <a href="#metodo" data-i18n="nav.method">Método</a>
+      <a href="#portafolio" data-i18n="nav.work">Portafolio</a>
+      <a href="#empezar" data-i18n="nav.start">Empezar</a>
+          </nav>
+    <div class="nav-right">
+      <button class="lang" id="langToggle" aria-label="Cambiar idioma"><span class="on">ES</span> / <span>EN</span></button>
+      <a href="#contacto" class="btn btn-small" data-i18n="nav.cta">Hablemos</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO v2: imágenes de fondo -->
+    <section class="hero2" aria-label="Inicio">
+      <div class="slides" aria-hidden="true">
+        <div class="slide on" style="--img:url(assets/work/escena-jaula.webp)"></div>
+        <div class="slide" style="--img:url(assets/work/calle-hamburgueseria.webp)"></div>
+        <div class="slide" style="--img:url(assets/work/traje-heroe.webp)"></div>
+        <div class="slide" style="--img:url(assets/work/escena-selva.webp)"></div>
+        <div class="slide" style="--img:url(assets/work/escena-llamada.webp)"></div>
+      </div>
+      <div class="hero2-shade" aria-hidden="true"></div>
+      <div class="hero2-content">
+        <p class="eyebrow reveal" data-i18n="h2.eyebrow">Marketing audiovisual · IA con alma humana</p>
+        <h1 class="hero2-title reveal" data-i18n-html="h2.title">Con IA, la creatividad<br><span class="ai">no tiene límites.</span></h1>
+        <p class="hero2-rot reveal"><span data-i18n="h2.pre">Hoy todo se puede lograr:</span> <span class="rot" id="rot">escenas de cine de alto nivel.</span></p>
+        <p class="hero2-sub reveal" data-i18n="h2.sub">El marketing audiovisual vive su mejor momento. Nunca antes habíamos tenido tanta oportunidad de crear, innovar y contar historias. En CreaIN las hacemos realidad, con dirección humana.</p>
+        <div class="hero-actions reveal">
+          <a href="#portafolio" class="btn" data-i18n="hero.cta1">Ver trabajos</a>
+          <a href="#contacto" class="btn btn-ghost btn-light" data-i18n="h2.cta2">Crear mi proyecto →</a>
+        </div>
+      </div>
+      <div class="hero2-dots" id="dots" aria-hidden="true"><button class="on"></button><button></button><button></button><button></button><button></button></div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- TIRA DE IMÁGENES -->
+    <div class="photo-strip" aria-hidden="true">
+      <div class="strip-track">
+        <img src="assets/work/alien-azul.webp" alt="" loading="lazy">
+        <img src="assets/work/rostro-tierra.webp" alt="" loading="lazy">
+        <img src="assets/work/pulpo-selfie.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-jaula.webp" alt="" loading="lazy">
+        <img src="assets/work/gigante-espinas.webp" alt="" loading="lazy">
+        <img src="assets/work/calle-hamburgueseria.webp" alt="" loading="lazy">
+        <img src="assets/work/reptiliana-selfie.webp" alt="" loading="lazy">
+        <img src="assets/work/traje-heroe.webp" alt="" loading="lazy">
+        <img src="assets/work/estatua-ruinas.webp" alt="" loading="lazy">
+        <img src="assets/work/comercial-tablet.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-selva.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-llamada.webp" alt="" loading="lazy">
+        <img src="assets/work/alien-azul.webp" alt="" loading="lazy">
+        <img src="assets/work/rostro-tierra.webp" alt="" loading="lazy">
+        <img src="assets/work/pulpo-selfie.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-jaula.webp" alt="" loading="lazy">
+        <img src="assets/work/gigante-espinas.webp" alt="" loading="lazy">
+        <img src="assets/work/calle-hamburgueseria.webp" alt="" loading="lazy">
+        <img src="assets/work/reptiliana-selfie.webp" alt="" loading="lazy">
+        <img src="assets/work/traje-heroe.webp" alt="" loading="lazy">
+        <img src="assets/work/estatua-ruinas.webp" alt="" loading="lazy">
+        <img src="assets/work/comercial-tablet.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-selva.webp" alt="" loading="lazy">
+        <img src="assets/work/escena-llamada.webp" alt="" loading="lazy">
+      </div>
+      <div class="strip-words"><span>Escenas de cine</span><i>✦</i><span>Personajes IA</span><i>✦</i><span>Comerciales</span><i>✦</i><span>Restaurantes</span><i>✦</i><span>Lanzamientos</span></div>
+    </div>
+
+    <!-- MANIFIESTO -->
+    <section class="manifesto manifesto-img" style="--img:url(assets/work/rostro-tierra.webp)">
+      <p class="eyebrow reveal" data-i18n="man.eyebrow">Manifiesto</p>
+      <p class="manifesto-text reveal" data-i18n-html="man.text">La IA puede generar mil imágenes por minuto. Pero no sabe <em>por qué</em> una idea emociona. Ese criterio — el gusto, la intuición, la calle, la historia — es humano. En CreaIN la máquina trabaja para la idea, <em>nunca al revés.</em></p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="services" id="servicios">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="srv.eyebrow">Servicios</p>
+        <h2 data-i18n="srv.title">Cinco líneas, una sola visión.</h2>
+      </div>
+      <div class="svc-grid">
+        <article class="svc reveal svc-wide" style="--img:url(assets/work/calle-hamburgueseria.webp)">
+          <div class="svc-bg"></div>
+          <div class="svc-body"><span class="num">01</span><h3 data-i18n="srv.s1.t">Estrategia</h3><p data-i18n="srv.s1.d">Pensamos el negocio antes que la pieza. Planes que conectan marca, contenido y ventas.</p><ul><li data-i18n="srv.s1.a">Estrategias 360</li><li data-i18n="srv.s1.b">Estrategia digital</li><li data-i18n="srv.s1.c">Lanzamientos exitosos</li></ul></div>
+        </article>
+        <article class="svc reveal svc-wide" style="--img:url(assets/work/alien-azul.webp)">
+          <div class="svc-bg"></div>
+          <div class="svc-body"><span class="num">02</span><h3 data-i18n="srv.s2.t">IA Creativa</h3><p data-i18n="srv.s2.d">Personajes, mundos y comerciales generados con IA y dirigidos con criterio cinematográfico.</p><ul><li data-i18n="srv.s2.a">Personajes en IA</li><li data-i18n="srv.s2.b">Comerciales en IA</li><li data-i18n="srv.s2.c">Contenido a escala</li></ul></div>
+        </article>
+        <article class="svc reveal" style="--img:url(assets/work/escena-jaula.webp)">
+          <div class="svc-bg"></div>
+          <div class="svc-body"><span class="num">03</span><h3 data-i18n="srv.s3.t">Producción</h3><p data-i18n="srv.s3.d">Cuando el proyecto lo pide, cámara, set y equipo real. Imagen de alto impacto con postproducción de nivel.</p><ul><li data-i18n="srv.s3.a">Producción humana real</li><li data-i18n="srv.s3.b">Fotografía de alto impacto</li><li data-i18n="srv.s3.c">Diseño y postproducción</li></ul></div>
+        </article>
+        <article class="svc reveal" style="--img:url(assets/work/traje-heroe.webp)">
+          <div class="svc-bg"></div>
+          <div class="svc-body"><span class="num">04</span><h3 data-i18n="srv.s4.t">Marca</h3><p data-i18n="srv.s4.d">Identidades con carácter: que se reconozcan en un segundo y se recuerden por años.</p><ul><li data-i18n="srv.s4.a">Branding</li><li data-i18n="srv.s4.b">Identidad visual</li><li data-i18n="srv.s4.c">Sistemas de marca</li></ul></div>
+        </article>
+        <article class="svc reveal" style="--img:url(assets/work/comercial-tablet.webp)">
+          <div class="svc-bg"></div>
+          <div class="svc-body"><span class="num">05</span><h3 data-i18n="srv.s5.t">Consultoría IA</h3><p data-i18n="srv.s5.d">Te enseñamos a usar la IA en tu empresa: herramientas, flujos y equipo, sin perder lo humano.</p><ul><li data-i18n="srv.s5.a">IA para tu empresa</li><li data-i18n="srv.s5.b">Talleres y formación</li><li data-i18n="srv.s5.c">Flujos de trabajo</li></ul></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PARA QUIÉN -->
+    <section class="uses" id="para-quien">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="use.eyebrow">¿Para quién?</p>
+        <h2 data-i18n="use.title">Si tienes algo que contar, hay una forma de mostrarlo.</h2>
+        <p class="lead" data-i18n="use.lead">Antes, el video de alto nivel era solo para las grandes marcas. Hoy está al alcance de cualquier negocio con una buena idea.</p>
+      </div>
+      <div class="use-row">
+        <a class="use reveal" href="#contacto" style="--img:url(assets/work/calle-hamburgueseria.webp)"><div class="use-txt"><h3 data-i18n="use.u1.t">Restaurantes y negocios locales</h3><p data-i18n="use.u1.d">Tu plato estrella convertido en comercial de cine, sin cerrar la cocina ni un día.</p><span class="use-go" data-i18n="use.go">Quiero esto →</span></div></a>
+        <a class="use reveal" href="#contacto" style="--img:url(assets/work/comercial-tablet.webp)"><div class="use-txt"><h3 data-i18n="use.u2.t">Marcas y empresas</h3><p data-i18n="use.u2.d">Campañas completas, de la idea al anuncio, en días y no en meses.</p><span class="use-go" data-i18n="use.go">Quiero esto →</span></div></a>
+        <a class="use reveal" href="#contacto" style="--img:url(assets/work/reptiliana-selfie.webp)"><div class="use-txt"><h3 data-i18n="use.u3.t">Creadores y marcas personales</h3><p data-i18n="use.u3.d">Personajes, avatares y formatos virales para crecer en redes.</p><span class="use-go" data-i18n="use.go">Quiero esto →</span></div></a>
+        <a class="use reveal" href="#contacto" style="--img:url(assets/work/gigante-espinas.webp)"><div class="use-txt"><h3 data-i18n="use.u4.t">Artistas y lanzamientos</h3><p data-i18n="use.u4.d">Videoclips, visualizers y campañas de lanzamiento que se ven millonarias.</p><span class="use-go" data-i18n="use.go">Quiero esto →</span></div></a>
+        <a class="use reveal" href="#contacto" style="--img:url(assets/work/escena-jaula.webp)"><div class="use-txt"><h3 data-i18n="use.u5.t">Cine y entretenimiento</h3><p data-i18n="use.u5.d">Escenas, tráilers y pilotos para vender tu historia antes de rodarla.</p><span class="use-go" data-i18n="use.go">Quiero esto →</span></div></a>
+      </div>
+    </section>
+
+    <!-- METODO -->
+    <section class="method" id="metodo">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="met.eyebrow">Método</p>
+        <h2 data-i18n-html="met.title">Humano <span class="ai">→</span> IA <span class="ai">→</span> Humano.</h2>
+        <p class="lead" data-i18n="met.lead">Cada proyecto empieza y termina en manos de personas. La IA vive en el medio, acelerando.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span class="tag tag-h" data-i18n="met.h">Humano</span><h4 data-i18n="met.1.t">Escuchar</h4><p data-i18n="met.1.d">Entendemos tu negocio, tu público y lo que quieres provocar.</p></div>
+        <div class="step reveal"><span class="tag tag-h" data-i18n="met.h">Humano</span><h4 data-i18n="met.2.t">Idear</h4><p data-i18n="met.2.d">El concepto nace del equipo creativo: la idea siempre es nuestra.</p></div>
+        <div class="step reveal"><span class="tag tag-a">IA</span><h4 data-i18n="met.3.t">Acelerar</h4><p data-i18n="met.3.d">Exploramos, prototipamos y producimos con IA en una fracción del tiempo.</p></div>
+        <div class="step reveal"><span class="tag tag-h" data-i18n="met.h">Humano</span><h4 data-i18n="met.4.t">Pulir y lanzar</h4><p data-i18n="met.4.d">Dirección, curaduría y acabado final. Nada sale sin ojo humano.</p></div>
+      </div>
+    </section>
+
+    <!-- ANTES VS AHORA -->
+    <section class="versus">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="vs.eyebrow">El cambio</p>
+        <h2 data-i18n-html="vs.title">Nunca había sido <span class="ai">tan posible.</span></h2>
+      </div>
+      <div class="vs-grid">
+        <div class="vs-col vs-old reveal">
+          <h3 data-i18n="vs.old">Producción tradicional</h3>
+          <ul>
+            <li data-i18n="vs.o1">Semanas de preproducción, permisos y locaciones.</li>
+            <li data-i18n="vs.o2">Equipos grandes y presupuestos que solo tenían las grandes marcas.</li>
+            <li data-i18n="vs.o3">Lo imposible se quedaba en el papel.</li>
+            <li data-i18n="vs.o4">Una sola versión del anuncio, y a cruzar los dedos.</li>
+          </ul>
+        </div>
+        <div class="vs-col vs-new reveal">
+          <h3>CreaIN</h3>
+          <ul>
+            <li data-i18n="vs.n1">Ideas que pasan a pantalla en días, no en semanas.</li>
+            <li data-i18n="vs.n2">Calidad de cine al alcance de un restaurante o un emprendimiento.</li>
+            <li data-i18n="vs.n3">Escenas imposibles sin salir del estudio.</li>
+            <li data-i18n="vs.n4">Varias versiones para probar qué funciona mejor con tu público.</li>
+            <li data-i18n="vs.n5">Y cuando el proyecto lo pide, cámara y rodaje real.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section class="work" id="portafolio">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="work.eyebrow">Portafolio</p>
+        <h2 data-i18n="work.title">Trabajo seleccionado.</h2>
+      </div>
+      <div class="work-grid">
+        <div class="case case-feature reveal">
+          <button class="video" data-yt="v1y2oTh83Jg" aria-label="Reproducir video">
+            <img src="https://i.ytimg.com/vi/v1y2oTh83Jg/hqdefault.jpg" alt="" loading="lazy">
+            <span class="play" aria-hidden="true">▶</span>
+          </button>
+          <div class="case-info case-info-static">
+            <span class="case-cat" data-i18n="work.c1.cat">Realismo IA · Personajes</span>
+            <h3 data-i18n="work.c1.t">Un solo humano. Un mundo entero.</h3>
+            <p data-i18n="work.c1.d">Video de realismo con personajes creados desde cero: concepto, dirección, generación y postproducción hechos de principio a fin por una sola persona. La prueba de lo que pasa cuando la IA trabaja para una visión humana.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-head reveal"><h3 class="sub-title" data-i18n="vid.title">Películas y cortos</h3></div>
+      <div class="reel">
+        <div class="vcard reveal">
+          <button class="video" data-yt="yts3euFesLk" aria-label="Reproducir: Zombies en Comuna Bogotana"><img src="https://i.ytimg.com/vi/yts3euFesLk/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v1.c">Cortometraje IA</span><h4 data-i18n="vid.v1.t">Zombies en Comuna Bogotana</h4></div>
+        </div>
+        <div class="vcard reveal">
+          <button class="video" data-yt="jkJLLsj315g" aria-label="Reproducir: Hacker en zona prohibida"><img src="https://i.ytimg.com/vi/jkJLLsj315g/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v2.c">Thriller IA</span><h4 data-i18n="vid.v2.t">Hacker en zona prohibida</h4></div>
+        </div>
+        <div class="vcard reveal">
+          <button class="video" data-yt="wu2W7xez8V4" aria-label="Reproducir: Chica en la Selva"><img src="https://i.ytimg.com/vi/wu2W7xez8V4/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v3.c">Supervivencia IA</span><h4 data-i18n="vid.v3.t">Chica en la Selva</h4></div>
+        </div>
+        <div class="vcard reveal">
+          <button class="video" data-yt="gOUZVIP1jkA" aria-label="Reproducir: Reptiliana"><img src="https://i.ytimg.com/vi/gOUZVIP1jkA/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v4.c">Ficción IA</span><h4 data-i18n="vid.v4.t">Reptiliana</h4></div>
+        </div>
+      </div>
+
+      <div class="social reveal">
+        <div class="social-text">
+          <p class="eyebrow" data-i18n="vid.s.eyebrow">Formato vertical</p>
+          <h3 class="sub-title" data-i18n="vid.s.title">Personajes IA listos para redes.</h3>
+          <p class="muted" data-i18n="vid.s.d">Influencers virtuales que bailan, actúan y venden. Contenido nativo para TikTok, Reels y Shorts, producido a escala.</p>
+        </div>
+        <div class="vcard vcard-v reveal">
+          <button class="video" data-yt="rXF_GLmzwSo" aria-label="Reproducir: Chica I.A · Dance Trend"><img src="https://i.ytimg.com/vi/rXF_GLmzwSo/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v5.c">Short</span><h4 data-i18n="vid.v5.t">Chica I.A · Dance Trend</h4></div>
+        </div>
+        <div class="vcard vcard-v reveal">
+          <button class="video" data-yt="ublWby9jg84" aria-label="Reproducir: Chico I.A · Dance Trend"><img src="https://i.ytimg.com/vi/ublWby9jg84/hqdefault.jpg" alt="" loading="lazy"><span class="play" aria-hidden="true">▶</span></button>
+          <div class="vmeta"><span class="case-cat" data-i18n="vid.v6.c">Short</span><h4 data-i18n="vid.v6.t">Chico I.A · Dance Trend</h4></div>
+        </div>
+      </div>
+
+      <div class="gallery-head reveal">
+        <h3 class="sub-title" data-i18n="gal.title">Personajes, películas y comerciales</h3>
+        <div class="filters" role="tablist">
+          <button class="filter on" data-f="all" data-i18n="gal.f.all">Todo</button>
+          <button class="filter" data-f="per" data-i18n="gal.f.per">Personajes</button>
+          <button class="filter" data-f="cine" data-i18n="gal.f.cine">Cine</button>
+          <button class="filter" data-f="com" data-i18n="gal.f.com">Comerciales</button>
+          <button class="filter" data-f="con" data-i18n="gal.f.con">Conceptos</button>
+        </div>
+      </div>
+      <div class="gallery">
+        <figure class="shot reveal" data-c="per"><img src="assets/work/alien-azul.webp" alt="Personaje IA creado por CreaIN" loading="lazy"><figcaption>Personaje IA</figcaption></figure>
+        <figure class="shot reveal" data-c="cine"><img src="assets/work/escena-jaula.webp" alt="Escena de película creado por CreaIN" loading="lazy"><figcaption>Escena de película</figcaption></figure>
+        <figure class="shot reveal" data-c="con"><img src="assets/work/rostro-tierra.webp" alt="Concepto creado por CreaIN" loading="lazy"><figcaption>Concepto</figcaption></figure>
+        <figure class="shot reveal" data-c="per"><img src="assets/work/reptiliana-selfie.webp" alt="Personaje IA creado por CreaIN" loading="lazy"><figcaption>Personaje IA</figcaption></figure>
+        <figure class="shot reveal" data-c="cine"><img src="assets/work/escena-selva.webp" alt="Escena de película creado por CreaIN" loading="lazy"><figcaption>Escena de película</figcaption></figure>
+        <figure class="shot reveal" data-c="con"><img src="assets/work/traje-heroe.webp" alt="Diseño de personaje creado por CreaIN" loading="lazy"><figcaption>Diseño de personaje</figcaption></figure>
+        <figure class="shot reveal" data-c="cine"><img src="assets/work/calle-hamburgueseria.webp" alt="Comercial · Calle creado por CreaIN" loading="lazy"><figcaption>Comercial · Calle</figcaption></figure>
+        <figure class="shot reveal" data-c="per"><img src="assets/work/pulpo-selfie.webp" alt="Personaje IA creado por CreaIN" loading="lazy"><figcaption>Personaje IA</figcaption></figure>
+        <figure class="shot reveal" data-c="con"><img src="assets/work/estatua-ruinas.webp" alt="Mundo creado por CreaIN" loading="lazy"><figcaption>Mundo</figcaption></figure>
+        <figure class="shot reveal" data-c="cine"><img src="assets/work/escena-llamada.webp" alt="Escena de película creado por CreaIN" loading="lazy"><figcaption>Escena de película</figcaption></figure>
+        <figure class="shot reveal" data-c="com"><img src="assets/work/comercial-tablet.webp" alt="Comercial creado por CreaIN" loading="lazy"><figcaption>Comercial</figcaption></figure>
+        <figure class="shot reveal" data-c="con"><img src="assets/work/gigante-espinas.webp" alt="Criatura creado por CreaIN" loading="lazy"><figcaption>Criatura</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- CÓMO EMPEZAR -->
+    <section class="packs" id="empezar">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="pk.eyebrow">Cómo empezar</p>
+        <h2 data-i18n="pk.title">Elige por dónde arrancar.</h2>
+        <p class="lead" data-i18n="pk.lead">Cada proyecto se cotiza a la medida. Cuéntanos tu idea y te enviamos una propuesta clara, sin compromiso.</p>
+      </div>
+      <div class="pk-grid">
+        <div class="pk reveal">
+          <h3 data-i18n="pk.p1.t">Pieza IA</h3><p data-i18n="pk.p1.d">Un comercial o pieza audiovisual corta, lista para redes y pauta.</p><p class="pk-for" data-i18n="pk.p1.f">Ideal para restaurantes, tiendas y emprendimientos.</p>
+          <a href="#contacto" class="btn btn-ghost" data-i18n="pk.cta">Cotizar</a>
+        </div>
+        <div class="pk reveal pk-star"><span class="pk-badge" data-i18n="pk.star">Más elegido</span>
+          <h3 data-i18n="pk.p2.t">Campaña 360</h3><p data-i18n="pk.p2.d">Estrategia, varias piezas y acompañamiento en el lanzamiento.</p><p class="pk-for" data-i18n="pk.p2.f">Para marcas que quieren resultados, no solo videos.</p>
+          <a href="#contacto" class="btn" data-i18n="pk.cta">Cotizar</a>
+        </div>
+        <div class="pk reveal">
+          <h3 data-i18n="pk.p3.t">Personaje de marca</h3><p data-i18n="pk.p3.d">Un personaje o influencer IA exclusivo, con identidad propia.</p><p class="pk-for" data-i18n="pk.p3.f">Tu marca con una cara que nadie más tiene.</p>
+          <a href="#contacto" class="btn btn-ghost" data-i18n="pk.cta">Cotizar</a>
+        </div>
+        <div class="pk reveal">
+          <h3 data-i18n="pk.p4.t">IA para tu empresa</h3><p data-i18n="pk.p4.d">Talleres y flujos de trabajo para que tu equipo cree con IA.</p><p class="pk-for" data-i18n="pk.p4.f">Para empresas que quieren hacerlo en casa.</p>
+          <a href="#contacto" class="btn btn-ghost" data-i18n="pk.cta">Cotizar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASESORÍA (Cal.com) -->
+    <section class="advice" id="asesoria">
+      <div class="advice-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="adv.eyebrow">Asesoría 1:1</p>
+          <h2 data-i18n-html="adv.title">Hablemos de tu idea,<br><span class="ai">cara a cara.</span></h2>
+          <p class="lead" data-i18n="adv.lead">Agenda una videollamada con DVD. Revisamos tu negocio, tu contenido actual y te llevas un plan claro de qué hacer con IA.</p>
+          <ul class="adv-list">
+            <li data-i18n="adv.l1">Diagnóstico de tu marca y tus redes</li>
+            <li data-i18n="adv.l2">Ideas concretas de piezas y campañas</li>
+            <li data-i18n="adv.l3">Qué herramientas de IA usar y cómo</li>
+          </ul>
+        </div>
+        <div class="cal-box reveal" id="calBox">
+          <div class="cal-placeholder">
+            <span class="cal-icon" aria-hidden="true">📅</span>
+            <h3 data-i18n="adv.box.t">Elige día y hora</h3>
+            <p data-i18n="adv.box.d">El calendario de reservas aparece aquí.</p>
+            <a href="#contacto" class="btn" id="calBtn" data-i18n="adv.box.btn">Agendar asesoría</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECURSOS / TIENDA -->
+    <section class="shop" id="recursos">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="shop.eyebrow">Recursos</p>
+        <h2 data-i18n="shop.title">Aprende a crear como nosotros.</h2>
+        <p class="lead" data-i18n="shop.lead">Guías, cursos y material digital para avanzar en tu producción audiovisual con IA.</p>
+      </div>
+      <div class="shop-grid">
+        <article class="prod reveal">
+          <div class="prod-img" style="--img:url(assets/work/rostro-tierra.webp)"><span class="prod-tag" data-i18n="shop.pr1.tag">Guía PDF</span></div>
+          <div class="prod-body"><h3 data-i18n="shop.pr1.t">Guía de prompts para video con IA</h3><p data-i18n="shop.pr1.d">Las fórmulas que usamos para crear escenas realistas.</p>
+            <div class="prod-foot"><span class="soon" data-i18n="shop.soon">Próximamente</span><a href="#contacto" class="btn btn-ghost btn-small" data-i18n="shop.notify">Avísame</a></div></div>
+        </article>
+        <article class="prod reveal">
+          <div class="prod-img" style="--img:url(assets/work/alien-azul.webp)"><span class="prod-tag" data-i18n="shop.pr2.tag">Curso</span></div>
+          <div class="prod-body"><h3 data-i18n="shop.pr2.t">Tu primer comercial con IA</h3><p data-i18n="shop.pr2.d">Paso a paso, de la idea a la pieza publicada.</p>
+            <div class="prod-foot"><span class="soon" data-i18n="shop.soon">Próximamente</span><a href="#contacto" class="btn btn-ghost btn-small" data-i18n="shop.notify">Avísame</a></div></div>
+        </article>
+        <article class="prod reveal">
+          <div class="prod-img" style="--img:url(assets/work/escena-selva.webp)"><span class="prod-tag" data-i18n="shop.pr3.tag">Plantillas</span></div>
+          <div class="prod-body"><h3 data-i18n="shop.pr3.t">Kit de guiones para redes</h3><p data-i18n="shop.pr3.d">Estructuras listas para reels, shorts y anuncios.</p>
+            <div class="prod-foot"><span class="soon" data-i18n="shop.soon">Próximamente</span><a href="#contacto" class="btn btn-ghost btn-small" data-i18n="shop.notify">Avísame</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <div class="faq-grid">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="fq.eyebrow">Preguntas frecuentes</p>
+          <h2 data-i18n="fq.title">Lo que todos preguntan.</h2>
+        </div>
+        <div class="faq-list">
+          <details class="reveal"><summary data-i18n="fq.f1.q">¿Los videos con IA se ven falsos?</summary><p data-i18n="fq.f1.a">No cuando hay dirección. Cada pieza pasa por guion, curaduría y postproducción humana. La IA genera; nosotros decidimos qué se queda y qué no.</p></details>
+          <details class="reveal"><summary data-i18n="fq.f2.q">¿Cuánto tiempo toma?</summary><p data-i18n="fq.f2.a">Depende del proyecto. Una pieza corta puede estar lista en días y una campaña completa en pocas semanas. Antes de empezar te damos fechas claras.</p></details>
+          <details class="reveal"><summary data-i18n="fq.f3.q">No tengo una idea clara, ¿igual puedo empezar?</summary><p data-i18n="fq.f3.a">Sí. Para eso está la parte humana: escuchamos tu negocio y te proponemos el concepto.</p></details>
+          <details class="reveal"><summary data-i18n="fq.f4.q">¿Trabajan con clientes fuera de Colombia?</summary><p data-i18n="fq.f4.a">Sí. Trabajamos de forma remota, en español e inglés, con marcas de cualquier país.</p></details>
+          <details class="reveal"><summary data-i18n="fq.f5.q">¿Puedo usar el contenido en mis redes y en pauta?</summary><p data-i18n="fq.f5.a">Sí. Te entregamos los archivos finales en los formatos que necesites para redes, web o anuncios pagos.</p></details>
+          <details class="reveal"><summary data-i18n="fq.f6.q">¿Y si mi proyecto necesita grabación real?</summary><p data-i18n="fq.f6.a">También lo hacemos. Cuando la historia lo pide, combinamos rodaje con cámara, set y equipo real con IA.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band" style="--img:url(assets/work/traje-heroe.webp)">
+      <div class="reveal">
+        <h2 data-i18n-html="cta.title">Tu próxima campaña<br><span class="ai">puede empezar hoy.</span></h2>
+        <a href="#contacto" class="btn" data-i18n="cta.btn">Quiero mi propuesta</a>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="nosotros">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Nosotros</p>
+          <h2 data-i18n="about.title">Pioneros digitales desde antes de que fuera tendencia.</h2>
+        </div>
+        <div class="about-text reveal">
+          <p data-i18n="about.p1">CreaIN nace en Armenia, Quindío, de la mano de DVD: creador de contenido desde los 14 años y uno de los primeros YouTubers de la región, cuando hacer videos en internet todavía no era un negocio.</p>
+          <p data-i18n="about.p2">Más de quince años después, esa misma intuición se encuentra con la inteligencia artificial. El resultado es una agencia con raíz local y mirada global, que entiende la cultura porque viene de ella.</p>
+          <div class="team team-solo">
+            <div class="member"><span class="member-mark">DVD</span><div><strong>DVD</strong><span data-i18n="team.dvd">Fundador · Director creativo · Showman</span></div></div>
+          </div>
+          <div class="stats">
+            <div><strong>15+</strong><span data-i18n="about.s1">años creando contenido</span></div>
+            <div><strong>2008</strong><span data-i18n="about.s2">primeros videos en la región</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact contact-img" id="contacto" style="--img:url(assets/work/estatua-ruinas.webp)">
+      <div class="contact-inner">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="ct.eyebrow">Contacto</p>
+          <h2 class="contact-title" data-i18n-html="ct.title">¿Tienes una idea?<br><em>Hagámosla real.</em></h2>
+          <p class="lead" data-i18n="ct.lead">Cuéntanos tu proyecto y te respondemos en menos de 48 horas.</p>
+        </div>
+        <form class="form reveal" name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/gracias.html">
+          <input type="hidden" name="form-name" value="contacto">
+          <p class="hidden"><label>No llenar: <input name="bot-field"></label></p>
+          <label><span data-i18n="ct.name">Nombre</span><input type="text" name="nombre" required></label>
+          <label><span data-i18n="ct.email">Email</span><input type="email" name="email" required></label>
+          <label><span data-i18n="ct.service">Servicio de interés</span>
+            <select name="servicio">
+              <option data-i18n="srv.s1.t">Estrategia</option>
+              <option data-i18n="srv.s2.t">IA Creativa</option>
+              <option data-i18n="srv.s3.t">Producción</option>
+              <option data-i18n="srv.s4.t">Marca</option>
+              <option data-i18n="srv.s5.t">Consultoría IA</option>
+            </select>
+          </label>
+          <label><span data-i18n="ct.msg">Cuéntanos del proyecto</span><textarea name="mensaje" rows="4" required></textarea></label>
+          <button class="btn" type="submit" data-i18n="ct.send">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden><button class="lb-close" aria-label="Cerrar">✕</button><img alt=""></div>
+
+  <footer class="footer">
+    <a href="#top" class="logo"><img src="assets/logo-creain.webp" alt="CreaIN" width="190" height="60"></a>
+    <p data-i18n="ft.tag">Creatividad humana, potenciada por IA.</p>
+    <p class="muted">© <span id="year"></span> CreaIN · Armenia, Colombia</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
